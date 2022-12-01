@@ -33,7 +33,7 @@ function guessCheck() {
         guesses.style.color = 'red';
     }
 
-    if (guessCount == 3) {
+    if (guessCount == 10) {
         mensage += 'Fim de jogo!';
         setResetGame();
     }
